@@ -131,7 +131,7 @@ with tab1:
         
         with col1:
             paises_cadastrados = df2['Country Code'].nunique()
-            col1.metric('Países cadatrados', paises_cadastrados)
+            col1.metric('Países cadastrados', paises_cadastrados)
             
         with col2:
             cidades_cadastradas = df2['City'].nunique()
